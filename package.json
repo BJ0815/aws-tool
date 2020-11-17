@@ -2,14 +2,18 @@
   "name": "get-sso-credential",
   "version": "1.0.0",
   "description": "CLI app for get credential from AWS SSO.",
+  "repository": {
+    "url": "BJ0815/aws-tool",
+    "type": "git"
+  },
   "scripts": {
-    "build": "rm -rf dist && tsup src/cli.ts --dts"
+    "build": "rm -rf dist && tsup src/cli.ts --dts",
+    "release": "shipjs prepare"
   },
   "author": "BJ0815 <jtt11220@gmail.com>",
   "license": "MIT",
-  "bin": {
-    "aws-tool": "./dist/cli.js"
-  },
+  "bin": "dist/cli.js",
+  "files": ["dist"],
   "dependencies": {
     "aws-sdk": "2.585.0",
     "cac": "^6.6.1",
@@ -25,6 +29,7 @@
     "@types/node": "^10.0.0",
     "@types/update-notifier": "^5.0.0",
     "jest": "^26.1.0",
+    "shipjs": "0.23.0",
     "tsup": "^3.8.0",
     "typescript": "~4.0.2"
   },
