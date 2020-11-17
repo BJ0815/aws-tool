@@ -1,6 +1,6 @@
 {
   "name": "get-sso-credential",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI app for get credential from AWS SSO.",
   "repository": {
     "url": "BJ0815/aws-tool",
@@ -13,7 +13,9 @@
   "author": "BJ0815 <jtt11220@gmail.com>",
   "license": "MIT",
   "bin": "dist/cli.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "aws-sdk": "2.585.0",
     "cac": "^6.6.1",
