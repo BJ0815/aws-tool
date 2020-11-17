@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-npm link #for develop
+npm i -g aws-tool
 ```
 
 ## Usage
