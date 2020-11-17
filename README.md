@@ -8,9 +8,17 @@
 npm i -g aws-tool
 ```
 
+AWS CLI
+
+```bash
+brew install aws-cli
+```
+
 ## Usage
 
 ```bash
 # 取的 sso credential
 aws-tool get-role-credential
 ```
+
+如果沒登入會自動進行`aws sso login`
