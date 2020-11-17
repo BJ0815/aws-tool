@@ -8,7 +8,7 @@
 npm i -g aws-tool
 ```
 
-AWS CLI
+需安裝 AWS CLI
 
 ```bash
 brew install aws-cli
