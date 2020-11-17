@@ -1,6 +1,6 @@
 {
   "name": "aws-tool",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "CLI app for get credential from AWS SSO.",
   "repository": {
     "url": "BJ0815/aws-tool",
