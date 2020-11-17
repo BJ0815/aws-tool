@@ -1,5 +1,5 @@
 {
-  "name": "@yass/aws-tool",
+  "name": "aws-tool",
   "version": "1.0.3",
   "description": "CLI app for get credential from AWS SSO.",
   "repository": {
