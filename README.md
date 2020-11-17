@@ -22,3 +22,7 @@ aws-tool get-role-credential
 ```
 
 如果沒登入會自動進行`aws sso login`
+
+## ENV
+
+如果要開發，需確保 node version >= 12
